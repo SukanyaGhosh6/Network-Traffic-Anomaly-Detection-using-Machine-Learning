@@ -1,4 +1,4 @@
-## **“Detecting Network Traffic Anomalies Using Machine Learning: A Data-Driven Approach to Intrusion Detection”**
+## **Detecting Network Traffic Anomalies Using Machine Learning: A Data-Driven Approach to Intrusion Detection**
 
 ### **Abstract**
 
