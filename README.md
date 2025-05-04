@@ -33,7 +33,7 @@ We focus on **supervised learning** (binary classification), but the system can 
 ---
 
 ##  Project Structure
-
+```
 network-anomaly-detection/
 ├── data/                  # Raw and preprocessed network traffic datasets (e.g., CICIDS2017)
 ├── scripts/               # Python scripts for preprocessing, training, and evaluation
@@ -47,7 +47,7 @@ network-anomaly-detection/
 ├── requirements.txt       # All dependencies
 └── main.py                # CLI-based execution entry point
 
-
+```
 ---
 
 ##  Machine Learning Concepts
