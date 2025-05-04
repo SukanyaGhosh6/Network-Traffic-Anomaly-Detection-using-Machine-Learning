@@ -72,14 +72,14 @@ We use models like:
    ```bash
    git clone https://github.com/SukanyaGhosh6/network-anomaly-detector.git
    cd network-anomaly-detector
-````
+
 
 2. **Create a virtual environment (optional but recommended)**:
 
    ```bash
    python -m venv venv
    source venv/bin/activate  # For Windows: venv\Scripts\activate
-   ```
+   
 
 3. **Install required libraries**:
 
