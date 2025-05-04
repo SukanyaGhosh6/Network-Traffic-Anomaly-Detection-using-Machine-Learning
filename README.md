@@ -34,26 +34,19 @@ We focus on **supervised learning** (binary classification), but the system can 
 
 ##  Project Structure
 
-```
+network-anomaly-detection/
+├── data/                  # Raw and preprocessed network traffic datasets (e.g., CICIDS2017)
+├── scripts/               # Python scripts for preprocessing, training, and evaluation
+│   ├── preprocess.py
+│   ├── train_model.py
+│   └── detect_anomaly.py
+├── models/                # Trained machine learning models (e.g., .pkl or .joblib files)
+├── utils/                 # Utility functions for feature engineering and metrics
+├── results/               # Logs, plots, confusion matrices
+├── README.md              # This file
+├── requirements.txt       # All dependencies
+└── main.py                # CLI-based execution entry point
 
-network-anomaly-detector/
-│
-├── data/                    # Preprocessed or raw dataset CSVs
-├── src/                     # Modular ML pipeline
-│   ├── preprocessing.py     # Feature encoding, scaling
-│   ├── train\_model.py       # Model training and saving
-│   ├── evaluate.py          # Model testing
-│   └── predict.py           # For live/batch prediction
-│
-├── scripts/
-│   └── run\_model.py         # Main script to trigger training & evaluation
-│
-├── saved\_models/            # Stores serialized model (.joblib)
-├── notebooks/               # Jupyter notebooks for EDA and experiments
-├── requirements.txt         # List of dependencies
-└── README.md                # Project overview (you’re here!)
-
-````
 
 ---
 
