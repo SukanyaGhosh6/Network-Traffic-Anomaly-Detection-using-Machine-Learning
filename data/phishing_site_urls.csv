@@ -1,0 +1,11 @@
+url,label
+http://secure-login-update.com,phishing
+https://google.com,legitimate
+http://paypal-account-verify.net,phishing
+https://openai.com,legitimate
+http://bankofamerica-alerts.info,phishing
+https://github.com,legitimate
+http://secure-appleid-login.com,phishing
+https://linkedin.com,legitimate
+http://amazon-verification.co,phishing
+https://microsoft.com,legitimate
