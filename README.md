@@ -43,7 +43,8 @@ network-anomaly-detection/
 ├── models/                # Trained machine learning models (e.g., .pkl or .joblib files)
 ├── utils/                 # Utility functions for feature engineering and metrics
 ├── results/               # Logs, plots, confusion matrices
-├── README.md              # This file
+├── README.md               # This file
+|-- RESEARCH_REPORT.md      #Research Report      
 ├── requirements.txt       # All dependencies
 └── main.py                # CLI-based execution entry point
 
